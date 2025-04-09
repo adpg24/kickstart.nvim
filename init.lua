@@ -667,6 +667,7 @@ require('lazy').setup({
         -- clangd = {},
         gopls = {},
         terraformls = {},
+        groovyls = {},
         -- pyright = {},
         rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
@@ -975,6 +976,7 @@ require('lazy').setup({
         'go',
         'hcl',
         'terraform',
+        'groovy',
       },
       -- Autoinstall languages that are not installed
       auto_install = true,
